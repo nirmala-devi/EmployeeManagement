@@ -9,7 +9,7 @@ Employee Management System using NodeJS, ReactJS, ExpressJS and AWS Dynamodb
 ## Quick Start
 
 ```bash 
-# Install dependencies for server
+# To Install dependencies 
 npm install
 
 # Run Server
@@ -18,4 +18,9 @@ npm start
 
 # Server runs on http://localhost:5000 
 
-You need to create a local instance of dynamodb before starting the application
+You need to create a local instance of dynamodb before starting the application and install aws cli
+
+update routes/createtable.js with your configuration.
+
+# to create table
+npm run createtable
