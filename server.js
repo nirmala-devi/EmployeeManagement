@@ -2,10 +2,11 @@ const express = require("express");
 const http = require("http");
 var employeeRouter = require('./routes/employeeRouter')
 const port = 5000;
-
+const cors = require('cors');
 
 const app = express();
 app.use(express.json());
+app.use(cors({ origin: true }))
 
 app.use('/employee',employeeRouter);
 
