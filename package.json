@@ -2,10 +2,12 @@
   "name": "employeeApi",
   "version": "1.0.0",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+     "createtable": "node routes/createtable.js"
   },
   "dependencies": {
     "aws-sdk": "^2.739.0",
+     "cors": "^2.8.5",
     "express": "^4.16.4"
   }
 }
