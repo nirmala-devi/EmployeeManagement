@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  background-color: rgb(187, 219, 231);
+    margin: auto;
+    margin-top:70px;
+    padding:20px;
+    width:50%;
+    height:90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  margin-left: 30px;
+ 
+}
+li{
+  margin: 10px;
+  float: left;
+}
+
+a,input[type=button]{
+  background-color: rgba(0, 45, 128, 0.603);
+  color:white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 4px 32px;
+  border-radius:6px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+a:active{
+  background-color: white;
+  color:blue;
+}
+
+
+.App-header>h1{
+  color: black;
+}
+
+.App-header>h3{
+  color: grey;
+}
+.empDtl{  
+  color:black
+}
+.empDtl>p{
+  color: blue;
+  font-size: 20px;
+}
+input[type=text],input[type=email],input[type=date]{
+  height:30px;
+  width:250px;
+  border-radius: 5px;
+}
+.empDtl>hr{
+  height:2px;
+  width: 80%;
+  color:grey;
+  background-color:gray;
+}
+table {
+  width: 80%;
+  height: 100%;
+}
+
+th, td ,.readEmp>td{
+  padding: 5px;
+  text-align: center;
+}
+
+
