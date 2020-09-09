@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(cors({ origin: true }))
 
-app.use('/employee',employeeRouter);
+app.use('/employees',employeeRouter);
 
 app.use("/",function(req,res){
     res.send("Employee Api");
