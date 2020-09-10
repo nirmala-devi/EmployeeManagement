@@ -134,7 +134,8 @@ function getEmployee(empId,res,status){
                 res.status(status).json(employee);
                 console.log("successfully Read Employee ",JSON.stringify(data,null,2));
                
-            }else{               
+            }else{    
+                res.sendStatus(400);  
                 console.log("There is no employee for given Id");
             }
             
